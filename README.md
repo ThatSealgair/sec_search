@@ -9,8 +9,8 @@ Easy searching!
 
 
 ## Features
-
-- Convert between Shodan Censys, and Hunter search syntax
+- Convert between Shodan, Censys, and Hunter search syntax
+- TUI to help generate conversions
 
 ## Installation
 
@@ -19,11 +19,13 @@ go install github.com/ThatSealgair/sec_search@latest
 ```
 
 ## Usage
+**Note**: Not all query parameters may have direct equivalents between platforms. The converter attempts to map the most common and relevant search parameters.
 
-Command line:
 ```bash
-sec-search convert --from shodan --to censys "port:443 country:US"
+sec_search
 ```
+
+Follow the TUI instructions.
 
 Go API:
 
@@ -42,7 +44,6 @@ go build
 
 ```
 sec_search/
-.
 ├── cmd
 │   └── sec_search
 │       └── main.go
