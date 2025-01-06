@@ -5,9 +5,6 @@ Easy searching!
 
 ![Searching](https://c.tenor.com/1mOSY9SvIQYAAAAd/tenor.gif)
 
-# sec_search
-
-
 ## Features
 - Convert between Shodan, Censys, and Hunter search syntax
 - TUI to help generate conversions
@@ -31,13 +28,12 @@ Go API:
 
 _coming soon..._
 
-
 ## Building from source
 
 ```bash
 git clone https://github.com/yourusername/sec_search.git
 cd sec_search
-go build
+go build cmd/sec_search/main.go
 ```
 
 ## Project Structure
