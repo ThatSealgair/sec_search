@@ -2,6 +2,7 @@
 Convert Shodan, Hunter, and Censys search queries.
 
 Easy searching!
+
 ![Searching](https://c.tenor.com/1mOSY9SvIQYAAAAd/tenor.gif)
 
 ## Features
