@@ -24,7 +24,7 @@ sec_search
 
 Follow the TUI instructions.
 
-Go API:
+### Go API:
 
 _coming soon..._
 
