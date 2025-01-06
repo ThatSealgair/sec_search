@@ -31,7 +31,7 @@ _coming soon..._
 ## Building from source
 
 ```bash
-git clone https://github.com/yourusername/sec_search.git
+git clone https://github.com/ThatSealgair/sec_search.git
 cd sec_search
 go build cmd/sec_search/main.go
 ```
